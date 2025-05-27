@@ -19,7 +19,7 @@ logging.basicConfig(
     filename=log_file_path,  # Лог-файл для записи
     filemode='a'  # Режим
 )
-bot = telebot.TeleBot('7559325120:AAGdjLicbQqekVjyccwTsUZX1innlpvtp4c')
+bot = telebot.TeleBot('')
 
 ADMIN_PASSWORD = "HHtcALPg"
 admin_sessions = set()
